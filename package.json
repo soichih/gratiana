@@ -1,0 +1,28 @@
+{
+  "name": "gratia-influxdb-loader",
+  "version": "0.0.0",
+  "description": "script to load gratia summary data to influxdb",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbd"
+  },
+  "keywords": [
+    "influxdb",
+    "gratia"
+  ],
+  "dependencies": {
+    "async": "0.9.0",
+    "assert": "1.1.1",
+    "mocha": "1.21.4",
+    "chai": "1.9.1",
+    "mysql": "2.4.2",
+    "influxdb": "0.0.1",
+    "string-template": "~0.2.0"
+  },
+  "author": "Soichi Hayashi <hayashis@iu.ed>",
+  "license": "MIT"
+}
